@@ -1,0 +1,25 @@
+{
+  "name": "select-demo",
+  "version": "1.0.0",
+  "description": "About select and input",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "tracyxiong1",
+  "license": "MIT",
+  "dependencies": {
+    "browserify": "^12.0.1",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "reactify": "^1.1.1"
+  },
+  "browserify": {
+    "transform": [
+      ["reactify"]
+    ]
+  }
+}
