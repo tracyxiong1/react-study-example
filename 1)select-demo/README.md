@@ -1,13 +1,13 @@
-##操作步骤
+###操作步骤
 
-##clone该项目到本地
+####clone该项目到本地
 
-##cd 1)select-demo
+cd 1)select-demo
 
-##npm install -g browserify
+npm install -g browserify
 
-##npm install 
+npm install 
 
-##browserify src/index.js > bundle.js
+browserify src/index.js > bundle.js
 
-##打开html文件
+打开html文件
